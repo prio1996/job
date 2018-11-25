@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat"
+    android:background="@color/colorPrimary">
+    <?xml version="1.0" encoding="utf-8"?>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvv"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0.7dp"
+                android:text="@string/i_am"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:text="I am ..." />
+
+            <Button
+                android:id="@+id/candibutton"
+                android:layout_width="102dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/candidate"
+                android:text=""
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+            <Button
+                android:id="@+id/empbutton"
+                android:layout_width="102dp"
+                android:layout_height="98dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/employer"
+                android:text=""
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+            <Button
+                android:id="@+id/mentbutton"
+                android:layout_width="102dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/mentor"
+                android:text=""
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="316dp" />
+
+            <Button
+                android:id="@+id/adminbutton"
+                android:layout_width="102dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/admin"
+                android:text=""
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
